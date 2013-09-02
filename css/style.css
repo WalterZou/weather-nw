@@ -1,0 +1,67 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Walter Zou
+ * Date: 13-8-30
+ * Time: 下午4:50
+ * To change this template use File | Settings | File Templates.
+ */
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}body,button,input,select,textarea{font-family:'Microsoft Yahei',Tahoma,Arial,HELVETICA}h1,h2,h3,h4,h5,h6{font-size:100%}address,cite,dfn,em,var,i{font-style:normal}code,kbd,pre,samp{font-family:courier new,courier,monospace}small{font-size:12px}ul,ol{list-style:none}a{text-decoration:none}a:hover{text-decoration:underline}sup{vertical-align:text-top}sub{vertical-align:text-bottom}legend{color:#000}fieldset,img{border:0}button,input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}.clearfix{*zoom:1}.clearfix:after{display:block;content:"";height:0;clear:both;overflow:hidden;visibility:hidden}.fl{float:left}.fr{float:right}
+body{font-size:12px;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,Sans-serif;}
+a:link,a:visited{color:#b6dbff;text-decoration:none}
+a:hover{color: #ff1916;}
+.airBg1{background:#009966}.airBg2{background:#ffde33;}.airBg3{background:#ff9933}.airBg4{background:#cc0033}.airBg5{background:#660099}.airBg6{background:#7e0023}
+.airFt1{color:#009966}.airFt2{color:#ffde33;}.airFt3{color:#ff9933}.airFt4{color:#cc0033}.airFt5{color:#660099}.airFt6{color:#7e0023}
+.wrapper{width:740px;margin: 0 auto;background:#0094E8}
+.hd{height:32px;background:#1d5487;padding:0 20px;font-size:14px;border-bottom: 1px solid #123c6a;color: #d1d1d1;position: relative;box-shadow: 0 1px 3px #123c6a }
+.hd .city{float:left;line-height:32px;}
+.hd .city a{margin-right: 8px;}
+.hd .aqi{float: right;line-height:32px;width:260px;}
+.hd .aqi .air{font-weight: bold;margin-right: 5px;}
+.hd .change-city{position: absolute;width: 600px;height: 30px;padding:2px 20px 0;left:90px;top:0;background:#1d5487;display: none}
+.hd .change-city input{height:24px;background-color: #d7e5f5;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7e5f5), color-stop(100%, #cbe0f5));background-image: -webkit-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: -moz-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: linear-gradient(top, #d7e5f5, #cbe0f5);border-top: 1px solid #abbbcc;border-left: 1px solid #a7b6c7;border-bottom: 1px solid #a1afbf;border-right: 1px solid #a7b6c7;border-radius:5px;-webkit-box-shadow: inset 0 1px 0 0 white;box-shadow: inset 0 1px 0 0 white;color: #1a3e66;text-align: center;text-shadow: 0 1px 1px #fff;margin-right: 10px;padding: 1px 10px;cursor: pointer;}
+.hd .change-city input:hover{background-color: #ccd9e8;}
+.hd .change-city .btns{margin-top: 5px;}
+.hd .change-city .select select{width: 80px;margin-right: 10px;}
+.hd .aqi-detail{position: absolute;top:33px;right:4px;width: 256px;font-size:12px;padding: 10px;color:#444;background: #eee;border-radius: 3px;box-shadow: 1px 1px 5px #222;display: none}
+.hd .aqi-detail i{position: absolute;left:20px;top:-8px;width: 16px;height: 16px;font-size: 16px;color: #eee;}
+.hd .aqi-detail .air{margin-right: 5px;color: #fff;padding: 0 5px;border-radius: 3px;}
+.hd .aqi-detail p{line-height: 1.5;color: #666;margin-top: 5px;}
+.today-weather .cal{width: 340px;font-size:14px;height: 36px;line-height: 36px;background:#0773BD;border-radius: 0 0 3px 3px;text-align: center;margin: 0 auto;}
+.today-weather .weather-detail{padding: 15px 0;}
+.today-weather .day-night{float: left;margin:0 20px;border-radius:3px;-webkit-animation-name:fadeInLeft;-moz-animation-name:fadeInLeft;-o-animation-name: fadeInLeft;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;}
+.forecast-single{float:left;width:180px;text-align: center;font-size:14px;line-height: 1.5}
+.forecast-single .s{color: #d1d1d1;font-size: 12px;}
+.today-weather .weather-now{float: left;width: 300px;}
+.today-weather .weather-now strong{display: block;font-size:16px;border-bottom:1px solid #89B7E4;padding-bottom: 10px;margin:5px 0 10px;}
+.today-weather .weather-now .weather-main li{float:left;width:100px;padding-left:10px;}
+.today-weather .weather-now .weather-main span{display: block;font-size: 16px;}
+.today-weather .weather-now .weather-main .tmp{font-size: 50px;position: relative}
+.today-weather .weather-now .weather-main .tmp em{font-size:30px;position: absolute;right: 10px;top: 0;}
+.today-weather .weather-now .weather-more li{width: 140px;float: left;padding-left: 10px;line-height:1.7;color: #d1d1d1}
+.tabs{height: 32px;background:#1d5487;font-size: 14px; }
+.tabs li{float:left;line-height:26px;margin-left:20px;_display:inline;cursor: pointer}
+.tabs .on{border-bottom: 2px solid #fff;color:#fff;}
+.tabs .on a{color: #fff;}
+.four-day-forecast{background: #0773BD;}
+.four-day-forecast .forecast-single{padding:10px 0;border-left: 1px solid #2b82d5;border-right: 1px solid #135d9b;width:156px;}
+.four-day-forecast .forecast-single:nth-child(1){-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name: fadeInUp;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;}
+.four-day-forecast .forecast-single:nth-child(2){-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name: fadeInUp;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;-webkit-animation-delay:0.2s;-moz-animation-delay:0.2s;-o-animation-delay:0.2s;animation-delay:0.2s;}
+.four-day-forecast .forecast-single:nth-child(3){-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name: fadeInUp;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;-webkit-animation-delay:0.4s;-moz-animation-delay:0.4s;-o-animation-delay:0.4s;animation-delay:0.4s;}
+.four-day-forecast .forecast-single:nth-child(4){-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name: fadeInUp;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;-webkit-animation-delay:0.6s;-moz-animation-delay:0.6s;-o-animation-delay:0.6s;animation-delay:0.6s;}
+.four-day-forecast p{float: left;padding: 70px 10px 0;}
+.life-index{background:#0773BD;display: none}
+.life-index li{float: left;width:160px;padding:20px 0 10px 24px;_display:inline;list-style: square inside;border-left: 1px solid #2b82d5;border-bottom:1px solid #2b82d5 }
+.life-index span{font-weight: bold;}
+.life-index em{color: #17DF9C}
+.life-index em.s{color: #F77270}
+.life-index p{color: #d1d1d1;line-height: 1.5;margin-top:5px;height: 36px;overflow: hidden}
+@keyframes fadeInUp {0% {opacity: 0;transform: translateY(50px);}100% {opacity: 1;transform: translateY(0);}}
+@-webkit-keyframes fadeInUp {0% {opacity: 0;-webkit-transform: translateY(50px);}100% {opacity: 1;-webkit-transform: translateY(0);}}
+@-moz-keyframes fadeInUp {0% {opacity: 0;-moz-transform: translateY(50px);}100% {opacity: 1;-moz-transform: translateY(0);}}
+@-o-keyframes fadeInUp {0% {opacity: 0;-o-transform: translateY(50px);}100% {opacity: 1;-o-transform: translateY(0);}}
+@keyframes fadeInLeft {0% {opacity: 0;transform: translateX(-80px);}100% {opacity: 1;transform: translateX(0);}}
+@-webkit-keyframes fadeInLeft {0% {opacity: 0;-webkit-transform: translateX(-80px);}100% {opacity: 1;-webkit-transform: translateX(0);}}
+@-moz-keyframes fadeInLeft {0% {opacity: 0;-moz-transform: translateX(-80px);}100% {opacity: 1;-moz-transform: translateX(0);}}
+@-o-keyframes fadeInLeft {0% {opacity: 0;-o-transform: translateX(-80px);}100% {opacity: 1;-o-transform: translateX(0);}}
+ 

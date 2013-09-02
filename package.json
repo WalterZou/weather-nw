@@ -1,0 +1,23 @@
+{
+	"main": "index.html",
+	"name": "weather-desktop",
+	"description": "weather for desktop by node-webkit",
+	"version": "0.1.0",
+	"keywords": [ "weather", "node-webkit" ],
+	"window": {
+		"title": "天气预报",
+		"icon": "",
+		"toolbar": true,
+		"frame": false,
+		"width": 800,
+		"height": 500,
+		"position": "center",
+		"min_width": 800,
+		"min_height": 500,
+		"max_width": 800,
+		"max_height": 500
+	},
+	"webkit": {
+		"plugin": true
+	}
+}
