@@ -31,7 +31,7 @@ function localizeData(str,act){
 	var localStorage=window.localStorage;
 	localStorage.setItem(act,str);
 }
-exports=module.exports=getDataByApi;
+exports=getDataByApi;
 
 
 

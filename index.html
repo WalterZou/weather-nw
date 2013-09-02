@@ -4,16 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Weather For Desktop</title>
-	<script src="js/lib/address.js" language="javascript"></script>
 	<script type="text/javascript" src="js/api.js"></script>
-	<script type="text/javascript" src='js/loaddata.js'></script>
+	<script type="text/javascript" src='index.js'></script>
+	<script type="text/javascript" src='js/lib/template.js'></script>
 	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div class="wrapper">
+<div id="indexContent"></div>
+<script id="index" type="text/template">
+	<div class="wrapper">
 	<div class="hd clearfix">
-		<div class="city">城市定位：<a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank">_d.wd('2013-09-02','moreday','dis_name',2)<a href="javascript:" class="change-city-btn" onclick="$('#change-city').show();">[更换]</a></div>
-		<div class="aqi">空气质量：<span class="air airFt1"><script>_d.wd('2013-09-02','moreday','air')</script></span>PM2.5指数：_d.wd('2013-09-02','moreday','pm',2)</div>
+		<div class="city">城市定位：<a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><%=mData.data[0]['dis_name']%></a><a href="javascript:" class="change-city-btn" onclick="$('#change-city').show();">[更换]</a></div>
+		<div class="aqi">空气质量：<span class="air airFt1"></span>PM2.5指数：</div>
 		<div class="change-city fl" id="change-city">
 			<form action="" method="post" id="recvaddress_form" onsubmit="return checkForm(this)" name="recvaddress_form">
 				<div class="select">
@@ -32,16 +34,16 @@
 				<ul class="forecast-single">
 					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="128" height="128"/></a></li>
 					<li>今天白天</li>
-					<li class="s">_d.wd('2013-09-02','moreday','weather_name',0)</li>
-					<li>_d.wd('2013-09-02','moreday','tem',0)</li>
-					<li class="s">_d.wd('2013-09-02','moreday','wind',0)</li>
+					<li class="s">/li>
+					<li></li>
+					<li class="s"></li>
 				</ul>
 				<ul class="forecast-single">
 					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/night/2.png.128.png" alt="" width="128" height="128"/></a></li>
 					<li>今天夜间</li>
-					<li class="s">_d.wd('2013-09-02','moreday','weather_name',1)</li>
-					<li>_d.wd('2013-09-02','moreday','tem',1)</li>
-					<li class="s">_d.wd('2013-09-02','moreday','wind',1)</li>
+					<li class="s"></li>
+					<li></li>
+					<li class="s"></li>
 				</ul>
 			</div>
 			<div class="weather-now">
@@ -107,11 +109,18 @@
 		<li><span>舒适度指数：<em class="s">较不宜</em></span><p>风力较大，坚持出门需注意避风。</p></li>
 	</ul>
 </div>
+</script>
+<script src="js/lib/address.js" language="javascript"></script>
+<script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
 <script type="text/javascript">
-	window.onload=function(){
-		ci_province = 1;ci_city=40000;ci_area=40004;
-		ciarea.selprovince(ci_province,ci_city,ci_area);
-	}
+	var mData=getData('2013-09-02','moreday');
+	console.log(mData);
+	var html = template.render('index', mData);
+	document.getElementById('indexContent').innerHTML = html;
+//	window.onload=function(){
+//		ci_province = 1;ci_city=40000;ci_area=40004;
+//		ciarea.selprovince(ci_province,ci_city,ci_area);
+//	}
 	function checkForm(f){
 		if(f.city.value==0){
 			alert('请选择城市');
@@ -132,6 +141,5 @@
 		}
 	}
 </script>
-<script type="text/javascript">console.log("成功了？")</script>
 </body>
 </html>
