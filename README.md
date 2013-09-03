@@ -1,4 +1,4 @@
 weather-nw
 ==========
 
-deesktop weather by node-webkit
+desktop weather by node-webkit
