@@ -7,15 +7,15 @@
 	"window": {
 		"title": "天气预报",
 		"icon": "",
-		"toolbar": true,
+		"toolbar": false,
 		"frame": false,
-		"width": 800,
-		"height": 500,
+		"width": 740,
+		"height": 517,
 		"position": "center",
-		"min_width": 800,
-		"min_height": 500,
-		"max_width": 800,
-		"max_height": 500
+		"min_width": 740,
+		"min_height": 517,
+		"max_width": 740,
+		"max_height": 517
 	},
 	"webkit": {
 		"plugin": true
