@@ -1,14 +1,14 @@
 <div class="wrapper">
 	<div class="hd clearfix">
-		<div class="city">城市定位：<a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><%= mData[0]['dis_name']%><a href="javascript:" class="change-city-btn" onclick="$('#change-city').show();">[更换]</a></div>
-		<div class="aqi">空气质量：<span class="air airFt1"></span>PM2.5指数：</div>
+		<div class="city">城市定位：<a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><%= moreday[0]['dis_name']%><a href="javascript:" class="change-city-btn" onclick="$('#change-city').show();">[更换]</a></div>
+		<div class="aqi">空气质量：<%= moreday[0]['air']%><span class="air airFt1"></span>PM2.5指数：<%= moreday[0]['pm']%></div>
 		<div class="change-city fl" id="change-city">
-			<form action="" method="post" id="recvaddress_form" onsubmit="return checkForm(this)" name="recvaddress_form">
+			<form action="" method="post" id="recvaddress_form" name="recvaddress_form">
 				<div class="select">
 					<select name="province" id="set_pro" onchange="ciarea.selcity(this.value,0)"></select>
 					<select name="city" id="set_city" onchange="ciarea.selarea(this.value,0)"></select>
 					<select	name="area" id="set_area"></select>
-					<span class="btns"><input type="submit" name="submit" value="确定"/><a href="javascript:" onclick="$('#change-city').hide();">取消</a></span>
+					<span class="btns"><em onclick="checkForm()">确定</em><a href="javascript:" onclick="$('#change-city').hide();">取消</a></span>
 				</div>
 			</form>
 		</div>
@@ -18,33 +18,33 @@
 		<div class="weather-detail clearfix">
 			<div class="day-night clearfix">
 				<ul class="forecast-single">
-					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="128" height="128"/></a></li>
+					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/<%= moreday[0]['day_night'][0]['weather']%>.png.128.png" alt="" width="128" height="128"/></a></li>
 					<li>今天白天</li>
-					<li class="s"></li>
-					<li></li>
-					<li class="s"></li>
+					<li class="s"><%= moreday[0]['day_night'][0]['weather_name']%></li>
+					<li><%= moreday[0]['day_night'][0]['tem']%>℃</li>
+					<li class="s"><%= moreday[0]['day_night'][0]['wind']%></li>
 				</ul>
 				<ul class="forecast-single">
-					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/night/2.png.128.png" alt="" width="128" height="128"/></a></li>
+					<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/night/<%= moreday[0]['day_night'][1]['weather']%>.png.128.png" alt="" width="128" height="128"/></a></li>
 					<li>今天夜间</li>
-					<li class="s"></li>
-					<li></li>
-					<li class="s"></li>
+					<li class="s"><%= moreday[0]['day_night'][1]['weather_name']%></li>
+					<li><%= moreday[0]['day_night'][1]['tem']%>℃</li>
+					<li class="s"><%= moreday[0]['day_night'][1]['wind']%></li>
 				</ul>
 			</div>
 			<div class="weather-now">
 				<strong>当前实况</strong>
 				<ul class="weather-main clearfix">
-					<li class="tmp">32<em>°</em><span>晴</span></li>
-					<li><img src="images/iconSet/accu/1.png.128.png" alt="" width="100" height="100"/></li>
+					<li class="tmp"><em><%= current['tem']%>°</em><span><%= current['weather_name']%></span></li>
+					<li><img src="images/iconSet/accu/<%= current['weather']%>.png.128.png" alt="" width="100" height="100"/></li>
 				</ul>
 				<ul class="weather-more">
-					<li>体感温度：39℃</li>
-					<li>相对湿度：51%</li>
-					<li>紫外线指数：4，较弱</li>
-					<li>能见距离：6km</li>
-					<li>当前气压：1005kPa</li>
-					<li>日出日落：05:38|18:32</li>
+					<li>体感温度：<%= current['tem_fell']%>℃</li>
+					<li>相对湿度：<%= current['humidity']%>%</li>
+					<li>紫外线指数：<%= current['uvindex']%>，<%= current['uvindex_name']%></li>
+					<li>能见距离：<%= current['visibility']%>km</li>
+					<li>当前气压：<%= current['qiya']%>kPa</li>
+					<li>日出日落：<%= moreday[0]['sunrise']%>|<%= moreday[0]['sunset']%></li>
 				</ul>
 			</div>
 		</div>
@@ -54,45 +54,26 @@
 		<li id="tab2" onclick="changeTab(2)" data-id="life-index">今日生活指数</li>
 	</ul>
 	<div id="content1" class="four-day-forecast clearfix">
+		<% for(var i=1;i<5;i++){%>
 		<ul class="forecast-single">
-			<li>星期六（明天）</li>
-			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="70" height="70"/></a></li>
-			<li class="s">多云</li>
-			<li>19℃ - 27℃ </li>
-			<li class="s">东北风3-4级</li>
+			<li><%= moreday[i]['day_night'][0]['date']%></li>
+			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/<%= moreday[i]['day_night'][0]['weather']%>.png.128.png" alt="" width="70" height="70"/></a></li>
+			<li class="s"><%= moreday[i]['day_night'][0]['weather_name']%></li>
+			<li><%= moreday[i]['tem_max']%>℃~<%= moreday[i]['tem_min']%>℃</li>
+			<li class="s"><%= moreday[i]['day_night'][0]['wind']%></li>
 		</ul>
-		<ul class="forecast-single">
-			<li>星期日（明天）</li>
-			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="70" height="70"/></a></li>
-			<li class="s">多云</li>
-			<li>19℃ - 28℃ </li>
-			<li class="s">东北风3-4级</li>
-		</ul>
-		<ul class="forecast-single">
-			<li>星期一</li>
-			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="70" height="70"/></a></li>
-			<li class="s">多云</li>
-			<li>21℃ - 28℃ </li>
-			<li class="s">东风3-4级</li>
-		</ul>
-		<ul class="forecast-single">
-			<li>星期二</li>
-			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/2.png.128.png" alt="" width="70" height="70"/></a></li>
-			<li class="s">多云</li>
-			<li>22℃ - 29℃ </li>
-			<li class="s">东北风3-4级</li>
-		</ul>
+		<% }%>
 		<p><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank">查看未来14天<br />天气预报>></a></p>
 	</div>
 	<ul id="content2" class="life-index clearfix">
-		<li><span>洗车指数：<em class="s">少发</em></span><p>感冒机率较低，避免长期处于空调屋中。</p></li>
-		<li><span>感冒指数：<em>较适宜</em></span><p>风力稍强，推荐您进行室内运动。</p></li>
-		<li><span>雨伞指数：<em class="s">一般</em></span><p>注意头发清洁，选用防晒型护发品。</p></li>
-		<li><span>晨练指数：<em>较适宜</em></span><p>部分地面较湿滑，选择合适的地点晨练。</p></li>
-		<li><span>晾晒指数：<em>适宜</em></span><p>天气不错，抓紧时机让衣物晒太阳吧。</p></li>
-		<li><span>钓鱼指数：<em class="s">较适宜</em></span><p>天气稍热会对垂钓产生一定影响。</p></li>
-		<li><span>防晒指数：<em>中等</em></span><p>适合涂擦SPF大于15，PA+护肤品。</p></li>
-		<li><span>舒适度指数：<em class="s">较不宜</em></span><p>风力较大，坚持出门需注意避风。</p></li>
+		<li><span>洗车指数：<em class="s"><%= zhishu[2]['low_des']%></em></span><p><%= zhishu[2]['high_des']%></p></li>
+		<li><span>感冒指数：<em><%= zhishu[4]['low_des']%></em></span><p><%= zhishu[4]['high_des']%></p></li>
+		<li><span>雨伞指数：<em class="s"><%= zhishu[12]['low_des']%></em></span><p><%= zhishu[12]['high_des']%></p></li>
+		<li><span>晨练指数：<em><%= zhishu[15]['low_des']%></em></span><p><%= zhishu[15]['high_des']%></p></li>
+		<li><span>晾晒指数：<em><%= zhishu[18]['low_des']%></em></span><p><%= zhishu[18]['high_des']%></p></li>
+		<li><span>钓鱼指数：<em class="s"><%= zhishu[16]['low_des']%></em></span><p><%= zhishu[16]['high_des']%></p></li>
+		<li><span>防晒指数：<em><%= zhishu[19]['low_des']%></em></span><p><%= zhishu[19]['high_des']%></p></li>
+		<li><span>舒适度指数：<em class="s"><%= zhishu[10]['low_des']%></em></span><p><%= zhishu[10]['high_des']%></p></li>
 	</ul>
 </div>
 

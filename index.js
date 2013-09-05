@@ -1,18 +1,15 @@
-var controller = require('./js/controller'),
+var controller = require('./js/spider'),
     ejs = require('ejs'),
     fs = require('fs');
 
 function renderTmpl(data) {
     var tmpl = fs.readFileSync('./view/index.ejs', 'utf-8'),
-        output = ejs.render(tmpl, {
-            mData: data
-        });
-    console.log(output);
+        output = ejs.render(tmpl,data);
     insertHtml(output);
 }
 
 function insertHtml(html) {
-    $('#wrapper').html(html);
-    console.log(html);
+//    $('#wrapper').html(html);
+    console.log('ejs',html);
 }
-controller.loadData(renderTmpl);
+controller.downloadAllData(null,renderTmpl);

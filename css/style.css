@@ -14,12 +14,13 @@ a:hover{color: #ff1916;}
 .airFt1{color:#009966}.airFt2{color:#ffde33;}.airFt3{color:#ff9933}.airFt4{color:#cc0033}.airFt5{color:#660099}.airFt6{color:#7e0023}
 .wrapper{width:740px;height:517px;margin: 0 auto;background:#0094E8;overflow: hidden}
 .hd{height:32px;background:#1d5487;padding:0 20px;font-size:14px;border-bottom: 1px solid #123c6a;color: #d1d1d1;position: relative;box-shadow: 0 1px 3px #123c6a;  -webkit-user-select: none;	-webkit-app-region: drag;}
+.hd .city a,.hd .change-city{-webkit-app-region: no-drag;}
 .hd .city{float:left;line-height:32px;}
-.hd .city a{margin-right: 8px;-webkit-app-region: no-drag;}
+.hd .city a{margin-right: 8px;}
 .hd .aqi{float: right;line-height:32px;width:260px;}
 .hd .aqi .air{font-weight: bold;margin-right: 5px;}
 .hd .change-city{position: absolute;width: 600px;height: 30px;padding:2px 20px 0;left:90px;top:0;background:#1d5487;display: none}
-.hd .change-city input{height:24px;background-color: #d7e5f5;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7e5f5), color-stop(100%, #cbe0f5));background-image: -webkit-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: -moz-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: linear-gradient(top, #d7e5f5, #cbe0f5);border-top: 1px solid #abbbcc;border-left: 1px solid #a7b6c7;border-bottom: 1px solid #a1afbf;border-right: 1px solid #a7b6c7;border-radius:5px;-webkit-box-shadow: inset 0 1px 0 0 white;box-shadow: inset 0 1px 0 0 white;color: #1a3e66;text-align: center;text-shadow: 0 1px 1px #fff;margin-right: 10px;padding: 1px 10px;cursor: pointer;}
+.hd .change-city em{display:inline-block;height:24px;line-height:24px;text-align:center;background-color: #d7e5f5;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7e5f5), color-stop(100%, #cbe0f5));background-image: -webkit-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: -moz-linear-gradient(top, #d7e5f5, #cbe0f5);background-image: linear-gradient(top, #d7e5f5, #cbe0f5);border-top: 1px solid #abbbcc;border-left: 1px solid #a7b6c7;border-bottom: 1px solid #a1afbf;border-right: 1px solid #a7b6c7;border-radius:5px;-webkit-box-shadow: inset 0 1px 0 0 white;box-shadow: inset 0 1px 0 0 white;color: #1a3e66;text-align: center;text-shadow: 0 1px 1px #fff;margin-right: 10px;padding: 1px 10px;cursor: pointer;}
 .hd .change-city input:hover{background-color: #ccd9e8;}
 .hd .change-city .btns{margin-top: 5px;}
 .hd .change-city .select select{width: 80px;margin-right: 10px;}

@@ -17,18 +17,15 @@
 
             function renderTmpl(data) {
                 var tmpl = fs.readFileSync('./view/index.ejs', 'utf-8'),
-                    output = ejs.render(tmpl, {
-                        mData: data
-                    });
-                console.log(output);
+                    output = ejs.render(tmpl,data);
                 insertHtml(output);
             }
 
             function insertHtml(html) {
                 $('#wrapper').html(html);
-                console.log(html);
+//                console.log(html);
             }
-            controller.loadData(renderTmpl);
+            controller.getData('',renderTmpl);
 
             window.onload = function() {
                 ci_province = 1;
@@ -37,12 +34,16 @@
                 ciarea.selprovince(ci_province, ci_city, ci_area);
             }
 
-            function checkForm(f) {
+            function checkForm() {
+	            var f=document.getElementsByTagName('form')[0];
                 if (f.city.value == 0) {
                     alert('请选择城市');
-                    return false;
+                }else{
+	                var dis= f.area.value;
+	                controller.getData(dis,renderTmpl);
+	                console.log(dis);
+	                $('#change-city').hide();
                 }
-                return true;
             }
             var g_tab = 1;
 
