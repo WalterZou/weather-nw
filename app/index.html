@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather For Desktop</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    
+    <body>
+        <div id="wrapper"></div>
+        <script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
+        <script src="js/lib/address.js" language="javascript"></script>
+        <script type="text/javascript">
+            var controller = require('./js/controller'),
+                ejs = require('ejs'),
+                fs = require('fs');
+
+            function renderTmpl(data) {
+                var tmpl = fs.readFileSync('./view/index.ejs', 'utf-8'),
+                    output = ejs.render(tmpl,data);
+                insertHtml(output);
+            }
+
+            function insertHtml(html) {
+                $('#wrapper').html(html);
+//                console.log(html);
+            }
+            controller.getData('',renderTmpl);
+
+            window.onload = function() {
+                ci_province = 1;
+                ci_city = 40000;
+                ci_area = 40004;
+                ciarea.selprovince(ci_province, ci_city, ci_area);
+            }
+
+            function checkForm() {
+	            var f=document.getElementsByTagName('form')[0];
+                if (f.city.value == 0) {
+                    alert('请选择城市');
+                }else{
+	                var dis= f.area.value;
+	                controller.getData(dis,renderTmpl);
+	                console.log(dis);
+	                $('#change-city').hide();
+                }
+            }
+            var g_tab = 1;
+
+            function changeTab(n) {
+                if (g_tab != n) {
+                    document.getElementById('tab' + n).className = 'on';
+                    document.getElementById('tab' + g_tab).className = '';
+                    document.getElementById('content' + n).style.display = 'block';
+                    document.getElementById('content' + g_tab).style.display = 'none';
+                    g_tab = n;
+                }
+            }
+        </script>
+    </body>
+
+</html>
