@@ -44,11 +44,6 @@ function getDataByApi(options,dis,callback) {
         });
     req.end();
 }
-async.waterfall([
-    function(callback){
-        getDataByApi(moredayOpt,null,callback);
-    }
-])
 Date.prototype.Format = function (fmt) {
     var o = {
         "M+": this.getMonth() + 1, //月份
@@ -67,21 +62,26 @@ Date.prototype.Format = function (fmt) {
 exports.downloadAllData=function(dis,callback){
     async.parallel({
         moreday:function(cb){
-            console.log('moreday',getDataByApi(moredayOpt,dis));
-//            cb(null,getDataByApi(moredayOpt,dis));
+            getDataByApi(moredayOpt,null,function(d){
+                cb(null,d);
+            });
         },
         zhishu:function(cb){
-//            cb(null,getDataByApi(zhishuOpt,dis));
+            getDataByApi(zhishuOpt,null,function(d){
+                cb(null,d);
+            });
         },
         current:function(cb){
-//            cb(null,getDataByApi(currentOpt,dis));
+            getDataByApi(currentOpt,null,function(d){
+                cb(null,d);
+            });
         }
     },function(err,results){
         if(err){
             console.log('err',err);
         }else{
-            console.log('results',results);
             callback(results);
         }
     })
 }
+

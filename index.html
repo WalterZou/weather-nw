@@ -10,8 +10,9 @@
         <div id="wrapper"></div>
         <script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
         <script src="js/lib/address.js" language="javascript"></script>
+        <script type="text/javascript" src="js/GetCNDate.js"></script>
         <script type="text/javascript">
-            var controller = require('./js/controller'),
+            var controller = require('./js/spider'),
                 ejs = require('ejs'),
                 fs = require('fs');
 
@@ -22,16 +23,19 @@
             }
 
             function insertHtml(html) {
-                $('#wrapper').html(html);
-//                console.log(html);
+	            var today=GetToday();
+	            $('#wrapper').html(html);
+	            $('#content1').find('.date').each(function(){
+		            var str=$(this).data('date');
+		            $(this).html('周'+getDayOfWeek(str)+'('+str.substr(5)+')');
+	            })
+	            $('.cal').html(today[2]+' 农历'+today[0]+' '+today[4]);
             }
-            controller.getData('',renderTmpl);
+            controller.downloadAllData(null,renderTmpl);
 
             window.onload = function() {
-                ci_province = 1;
-                ci_city = 40000;
-                ci_area = 40004;
-                ciarea.selprovince(ci_province, ci_city, ci_area);
+	            ci_province = 1;ci_city=40000;ci_area=40004;
+	            ciarea.selprovince(ci_province,ci_city,ci_area);
             }
 
             function checkForm() {
@@ -40,7 +44,7 @@
                     alert('请选择城市');
                 }else{
 	                var dis= f.area.value;
-	                controller.getData(dis,renderTmpl);
+	                controller.downloadAllData(dis,renderTmpl);
 	                console.log(dis);
 	                $('#change-city').hide();
                 }
@@ -55,6 +59,11 @@
                     document.getElementById('content' + g_tab).style.display = 'none';
                     g_tab = n;
                 }
+            }
+            function getDayOfWeek(date){
+                var day=new Date(Date.parse(date.replace('/-/g','/')));
+                var weekName=['日','一','二','三','四','五','六'];
+                return weekName[day.getDay()];  
             }
         </script>
     </body>

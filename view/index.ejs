@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<div class="hd clearfix">
 		<div class="city">城市定位：<a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><%= moreday[0]['dis_name']%><a href="javascript:" class="change-city-btn" onclick="$('#change-city').show();">[更换]</a></div>
-		<div class="aqi">空气质量：<%= moreday[0]['air']%><span class="air airFt1"></span>PM2.5指数：<%= moreday[0]['pm']%></div>
+		<div class="aqi">空气质量：<span class="air airFt1"><%= moreday[0]['air']%></span>PM2.5指数：<%= moreday[0]['pm']%></div>
 		<div class="change-city fl" id="change-city">
 			<form action="" method="post" id="recvaddress_form" name="recvaddress_form">
 				<div class="select">
@@ -12,6 +12,7 @@
 				</div>
 			</form>
 		</div>
+		<a href="javascript" onclick="window.close();" class="closer">×</a>
 	</div>
 	<div class="today-weather">
 		<div class="cal">2013年8月30日 星期五 农历七月廿四</div>
@@ -39,7 +40,7 @@
 					<li><img src="images/iconSet/accu/<%= current['weather']%>.png.128.png" alt="" width="100" height="100"/></li>
 				</ul>
 				<ul class="weather-more">
-					<li>体感温度：<%= current['tem_fell']%>℃</li>
+					<li>体感温度：<%= current['tem_feel']%>℃</li>
 					<li>相对湿度：<%= current['humidity']%>%</li>
 					<li>紫外线指数：<%= current['uvindex']%>，<%= current['uvindex_name']%></li>
 					<li>能见距离：<%= current['visibility']%>km</li>
@@ -56,7 +57,7 @@
 	<div id="content1" class="four-day-forecast clearfix">
 		<% for(var i=1;i<5;i++){%>
 		<ul class="forecast-single">
-			<li><%= moreday[i]['day_night'][0]['date']%></li>
+			<li class="date" data-date="<%= moreday[i]['day_night'][0]['date']%>"></li>
 			<li><a href="http://www.tianqiyubao.com/local.php?dis_id=1100" target="_blank"><img src="images/iconSet/day/<%= moreday[i]['day_night'][0]['weather']%>.png.128.png" alt="" width="70" height="70"/></a></li>
 			<li class="s"><%= moreday[i]['day_night'][0]['weather_name']%></li>
 			<li><%= moreday[i]['tem_max']%>℃~<%= moreday[i]['tem_min']%>℃</li>

@@ -28,6 +28,8 @@ a:hover{color: #ff1916;}
 .hd .aqi-detail i{position: absolute;left:20px;top:-8px;width: 16px;height: 16px;font-size: 16px;color: #eee;}
 .hd .aqi-detail .air{margin-right: 5px;color: #fff;padding: 0 5px;border-radius: 3px;}
 .hd .aqi-detail p{line-height: 1.5;color: #666;margin-top: 5px;}
+.closer{position: absolute;right: 10px;top: 2px;font-size: 20px;color: #eee;-webkit-app-region:no-drag;font-family:serif;}
+.closer:hover{color: #fff;}
 .today-weather .cal{width: 340px;font-size:14px;height: 36px;line-height: 36px;background:#0773BD;border-radius: 0 0 3px 3px;text-align: center;margin: 0 auto;}
 .today-weather .weather-detail{padding: 15px 0;}
 .today-weather .day-night{float: left;margin:0 20px;border-radius:3px;-webkit-animation-name:fadeInLeft;-moz-animation-name:fadeInLeft;-o-animation-name: fadeInLeft;-webkit-animation-duration: 1s;-o-animation-duration: 1s;-moz-animation-duration: 1s;}
