@@ -1,332 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" name="Default" comment="1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/GetCNDate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app.zip" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\1.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\11.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\12.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\13.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\14.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\15.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\16.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\17.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\18.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\19.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\19.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\2.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\20.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\21.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\21.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\22.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\22.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\23.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\23.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\24.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\24.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\25.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\25.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\26.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\26.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\29.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\29.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\3.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\30.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\30.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\31.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\31.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\32.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\33.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\33.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\34.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\34.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\35.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\35.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\36.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\36.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\37.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\37.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\38.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\38.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\39.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\39.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\4.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\40.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\40.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\41.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\41.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\42.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\42.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\43.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\43.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\44.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\44.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\5.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\6.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\7.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\8.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\na.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\accu\na.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\1.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\10.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\10.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\11.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\12.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\13.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\14.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\15.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\16.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\17.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\18.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\19.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\19.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\2.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\20.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\21.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\21.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\22.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\22.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\23.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\23.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\24.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\24.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\25.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\25.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\26.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\26.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\27.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\27.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\28.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\28.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\29.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\29.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\3.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\30.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\30.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\31.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\31.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\32.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\33.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\33.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\4.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\5.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\6.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\7.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\8.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\9.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\9.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\na.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\day\na.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\1.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\10.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\10.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\11.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\11.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\12.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\12.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\13.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\13.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\14.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\14.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\15.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\15.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\16.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\17.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\17.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\18.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\18.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\19.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\19.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\2.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\20.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\21.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\21.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\22.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\22.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\23.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\23.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\24.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\24.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\25.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\25.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\26.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\26.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\27.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\27.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\28.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\28.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\29.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\29.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\3.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\30.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\30.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\31.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\31.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\32.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\33.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\33.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\4.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\4.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\5.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\5.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\6.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\7.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\7.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\8.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\8.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\9.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\9.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\na.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\images\iconSet\night\na.png.128.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\index.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\controller.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\current.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\lib\address.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\lib\jquery-2.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\moreday.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\spider.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\js\zhishu.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\async\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\async\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\async\component.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\async\lib\async.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\async\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\History.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\ejs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\ejs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\examples\client.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\examples\functions.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\examples\functions.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\examples\list.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\examples\list.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\index.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\lib\ejs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\lib\filters.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\support\compile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\ejs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\backslash.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\backslash.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\comments.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\comments.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\double-quote.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\double-quote.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\error.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\error.out" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\fail.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\include.css.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\include.css.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\include.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\include.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\includes\menu-item.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\includes\menu\item.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\menu.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\menu.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\messed.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\messed.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\newlines.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\newlines.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\no.newlines.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\no.newlines.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\para.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\pet.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\single-quote.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\single-quote.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\style.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\node_modules\ejs\test\fixtures\user.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\app\view\index.ejs" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\js\controller.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\js\current.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\js\moreday.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\GitHub\weather-nw\js\zhishu.json" afterPath="" />
+    <list default="true" id="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/index.ejs" afterPath="$PROJECT_DIR$/view/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spider.js" afterPath="$PROJECT_DIR$/js/spider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\commandlinetools\schemas\frameworkDescriptionVersion1.1.3.xsd" afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.3.xsd" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\jsLinters\jshint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\jsLinters\jslint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\scopes\scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="E:\GitHub\weather-nw\app\.idea\weather-nw.iml" afterPath="$PROJECT_DIR$/.idea/weather-nw.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weather-nw.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/package.json" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464301579" ignored="false" />
+    <file path="/package.json" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378710613549" ignored="false" />
     <file path="/a.css" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378261946879" ignored="false" />
     <file path="/a.dart" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1377852301957" ignored="false" />
-    <file path="/style.css" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464534354" ignored="false" />
-    <file path="/index.html" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464218067" ignored="false" />
-    <file path="/index.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378369005718" ignored="false" />
-    <file path="/dummy.txt" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464473177" ignored="false" />
+    <file path="/style.css" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378719185182" ignored="false" />
+    <file path="/index.html" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378711596440" ignored="false" />
+    <file path="/index.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378699366569" ignored="false" />
+    <file path="/dummy.txt" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378720060598" ignored="false" />
     <file path="/loaddata.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378113455368" ignored="false" />
-    <file path="/index.ejs" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464366398" ignored="false" />
-    <file path="/Dummy.txt" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378464727174" ignored="false" />
+    <file path="/index.ejs" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378719031183" ignored="false" />
+    <file path="/Dummy.txt" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378718616236" ignored="false" />
     <file path="/dummy.xml" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378176079431" ignored="false" />
     <file path="/api.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378194776453" ignored="false" />
     <file path="/controller.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378367863803" ignored="false" />
@@ -336,11 +31,12 @@
     <file path="/README.md" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378262942780" ignored="false" />
     <file path="/config.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378271538345" ignored="false" />
     <file path="/tools.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378353258379" ignored="false" />
-    <file path="/spider.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378429417668" ignored="false" />
+    <file path="/spider.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378706147038" ignored="false" />
     <file path="/dateFormat.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378356313489" ignored="false" />
     <file path="/fetchData.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378361693613" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/ejs/support/compile.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378361625405" ignored="false" />
     <file path="/GetCNDate.js" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378462408760" ignored="false" />
+    <file path="/test.html" changelist="950a9e51-33b4-4c12-b1d9-3120f2cb62aa" time="1378705348832" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,46 +59,29 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="35" selection-start="830" selection-end="830" vertical-scroll-proportion="-8.56">
+            <state line="38" column="32" selection-start="1323" selection-end="1323" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="61" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.6848249">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="68" selection-start="989" selection-end="995" vertical-scroll-proportion="-1.1119691">
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCNDate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/GetCNDate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="27" selection-start="3858" selection-end="3858" vertical-scroll-proportion="0.0">
+            <state line="14" column="158" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-8.96">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spider.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/spider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -410,16 +89,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="235" selection-end="235" vertical-scroll-proportion="-5.76">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="3516" selection-end="3516" vertical-scroll-proportion="0.0">
+            <state line="8" column="51" selection-start="214" selection-end="248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -458,7 +128,7 @@
       <command text="nw app.nw" />
       <command text="nw app.nw" />
       <command text="nw app.nw" />
-      <command text="nw app.nw" />
+      <command text="copy /b nw.exe+app.nw app.exe " />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -470,27 +140,27 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.js" root0="SKIP_INSPECTION" />
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/js/data.json" />
         <option value="$PROJECT_DIR$/js/moreday.json" />
         <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/js/tools.js" />
         <option value="$PROJECT_DIR$/js/dateFormat.js" />
         <option value="$PROJECT_DIR$/js/fetchData.js" />
         <option value="$PROJECT_DIR$/js/controller.js" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/js/spider.js" />
         <option value="$PROJECT_DIR$/js/nongli.js" />
         <option value="$PROJECT_DIR$/js/GetCNDate.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/test..html" />
+        <option value="$PROJECT_DIR$/js/spider.js" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/view/index.ejs" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -574,6 +244,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -602,6 +286,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconSet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-nw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -614,8 +330,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSHint" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yunqi-nw" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -728,23 +444,27 @@
       <created>1378376186678</created>
       <updated>1378376186678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <created>1378464780681</created>
+      <updated>1378464780681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10069445" sideWeight="0.7157233" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1061693" sideWeight="0.71632123" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21006289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28427672" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28367877" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -817,110 +537,97 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="88" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/jquery-2.0.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.03018868" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.066390045" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/37.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="520" column="24" selection-start="16043" selection-end="16043" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/36.png.128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ejs/lib/ejs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="5845" selection-end="5845" vertical-scroll-proportion="0.33333334" />
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/31.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/spider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/33.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/GetCNDate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="27" selection-start="3858" selection-end="3858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/33.png.128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/34.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/34.png.128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/35.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/35.png.128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/36.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconSet/accu/31.png.128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="235" selection-end="235" vertical-scroll-proportion="-5.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="3516" selection-end="3516" vertical-scroll-proportion="0.0">
+        <state line="8" column="51" selection-start="214" selection-end="248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="830" selection-end="830" vertical-scroll-proportion="-8.56">
+        <state line="38" column="32" selection-start="1323" selection-end="1323" vertical-scroll-proportion="-0.64">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/index.ejs">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="68" selection-start="989" selection-end="995" vertical-scroll-proportion="-1.1119691">
+        <state line="14" column="158" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-8.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="61" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.6848249">
           <folding />
         </state>
       </provider>

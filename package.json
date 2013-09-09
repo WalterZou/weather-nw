@@ -6,7 +6,7 @@
 	"keywords": [ "weather", "node-webkit" ],
 	"window": {
 		"title": "天气预报",
-		"icon": "",
+		"icon": "images/iconSet/accu/31.png.128.png",
 		"toolbar": false,
 		"frame": false,
 		"width": 740,

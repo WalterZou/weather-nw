@@ -14,8 +14,31 @@
         <script type="text/javascript">
             var controller = require('./js/spider'),
                 ejs = require('ejs'),
-                fs = require('fs');
+                fs = require('fs'),
+                gui = require('nw.gui'),
+                win = gui.Window.get(),
+                tray;
 
+            function minimizeW(){
+                gui.Window.get().minimize();
+            }
+
+            // Get the minimize event
+            win.on('minimize', function() {
+                // Hide window
+                this.hide();
+
+                // Show tray
+                tray = new gui.Tray({ icon: 'images/iconSet/accu/31.png.128.png' });
+
+                // Show window and remove tray when clicked
+                tray.on('click', function() {
+                    win.show();
+                    this.remove();
+                    tray = null;
+                    win.focus();
+                });
+            });
             function renderTmpl(data) {
                 var tmpl = fs.readFileSync('./view/index.ejs', 'utf-8'),
                     output = ejs.render(tmpl,data);
@@ -30,20 +53,22 @@
 		            $(this).html('周'+getDayOfWeek(str)+'('+str.substr(5)+')');
 	            })
 	            $('.cal').html(today[2]+' 农历'+today[0]+' '+today[4]);
+                ci_province = 1;ci_city=40000;ci_area=40004;
+                ciarea.selprovince(ci_province,ci_city,ci_area);
+                $('.openNew').on('click',function(){
+                    console.log(1);
+                    var url='http://www.tianqiyubao.com/local.php?dis_id='+$(this).data('id');
+                    openNew(url);
+                })
             }
             controller.downloadAllData(null,renderTmpl);
-
-            window.onload = function() {
-	            ci_province = 1;ci_city=40000;ci_area=40004;
-	            ciarea.selprovince(ci_province,ci_city,ci_area);
-            }
 
             function checkForm() {
 	            var f=document.getElementsByTagName('form')[0];
                 if (f.city.value == 0) {
                     alert('请选择城市');
                 }else{
-	                var dis= f.area.value;
+	                var dis= f.city.value;
 	                controller.downloadAllData(dis,renderTmpl);
 	                console.log(dis);
 	                $('#change-city').hide();
@@ -65,6 +90,11 @@
                 var weekName=['日','一','二','三','四','五','六'];
                 return weekName[day.getDay()];  
             }
+            function openNew(url){
+                gui.Shell.openExternal(url);
+                console.log(url);
+            }
+
         </script>
     </body>
 

@@ -29,7 +29,6 @@ function getDataByApi(options,dis,callback) {
         url = 'http://www.tianqiyubao.com/api/api.php?key=6cccedcf841019b3a6dee96205fa719c&action=' + options.action;
     }
     var req=http.get(url, function (res) {
-        console.log("StatusCode:"+res.statusCode);
         var str = '';
         res.on('data', function (chunk) {
             str += chunk;
@@ -62,17 +61,17 @@ Date.prototype.Format = function (fmt) {
 exports.downloadAllData=function(dis,callback){
     async.parallel({
         moreday:function(cb){
-            getDataByApi(moredayOpt,null,function(d){
+            getDataByApi(moredayOpt,dis,function(d){
                 cb(null,d);
             });
         },
         zhishu:function(cb){
-            getDataByApi(zhishuOpt,null,function(d){
+            getDataByApi(zhishuOpt,dis,function(d){
                 cb(null,d);
             });
         },
         current:function(cb){
-            getDataByApi(currentOpt,null,function(d){
+            getDataByApi(currentOpt,dis,function(d){
                 cb(null,d);
             });
         }
